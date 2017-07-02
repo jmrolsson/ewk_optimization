@@ -1,0 +1,10 @@
+[
+    {
+        "selections": "jets_n >= {0}",
+        "pivot": [4]
+    },
+    {
+        "selections": "jets_n <= {0}",
+        "pivot": [5]
+    }
+]
