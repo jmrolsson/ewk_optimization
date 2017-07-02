@@ -1,9 +1,9 @@
 #!/bin/bash
 
-input_dir=/Users/joakim/ewk/ewk_mbj_ntuples/histfitter/
-version=histfitter_20170521_sig_validation.local
 #input_dir=/Users/joakim/ewk/ewk_mbj_ntuples/histfitter/
-#version=histfitter_20170604_bkg_all.grid.tag2.4.28-0-1-77-gd12fe93/
+#version=histfitter_20170521_sig_validation.local/
+input_dir=/share/t3data2/jolsson/EWK/ewk_mbj_ntuples/histfitter/
+version=histfitter_20170604_bkg_all.grid.tag2.4.28-0-1-77-gd12fe93/
 
 tag=resolved_MctbbG160_mTbmin_Wh_May30
 
