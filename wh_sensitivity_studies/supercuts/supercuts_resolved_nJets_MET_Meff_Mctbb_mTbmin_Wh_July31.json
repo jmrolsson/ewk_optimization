@@ -1,0 +1,68 @@
+[
+    {
+        "selections": "baseline_electrons_n == {0}",
+        "pivot": [0]
+    },
+    {
+        "selections": "baseline_muons_n == {0}",
+        "pivot": [0]
+    },
+    {
+        "selections": "jets_n >= {0}",
+        "pivot": [4]
+    },
+    {
+        "selections": "jets_n <= {0}",
+        "st3": [
+            [4, 6, 1]
+        ]
+    },
+    {
+        "selections": "bjets_n == {0}",
+        "pivot": [2]
+    },
+    {
+        "selections": "dphi_min > {0}",
+         "pivot": [0.4]
+    },
+    {
+        "selections": "minv_bb > {0}",
+        "pivot": [100]
+    },
+    {
+        "selections": "minv_bb < {0}",
+        "pivot": [140]
+    },
+    {
+        "selections": "minv_non_bb > {0}",
+        "pivot": [60]
+    },
+    {
+        "selections": "minv_non_bb < {0}",
+        "pivot": [110]
+    },
+    {
+        "selections": "met > {0}",
+        "st3": [
+            [200, 550, 50]
+        ]
+    },
+    {
+        "selections": "meff_4j > {0}",
+        "st3": [
+            [700, 1400, 100]
+        ]
+    },
+    {
+        "selections": "mTb_min > {0}",
+        "st3": [
+            [100, 380, 20]
+        ]
+    },
+    {
+        "selections": "mct_bb > {0}",
+        "st3": [
+            [100, 260, 10]
+        ]
+    }
+]
