@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
   parser = argparse.ArgumentParser(description='Joakim Olsson v.{0}'.format(__version__),
                                    formatter_class=lambda prog: CustomFormatter(prog, max_help_position=30))
-  parser.add_argument('--summary', type=str, required=True, help='Summary json')
+  parser.add_argument('--use-summary', dest='summary', type=str, required=True, help='Summary json')
   parser.add_argument('--outputHash', type=str, required=True, help='Directory where outputHash files are located')
   parser.add_argument('--supercuts', type=str, required=True, help='Supercuts file detailing all selections used')
   parser.add_argument('--masspoints', nargs='+', type=str, metavar='<mC1N2_mN1>', required=False, help='Masspoints for which to generate the config file', default='300_100')
