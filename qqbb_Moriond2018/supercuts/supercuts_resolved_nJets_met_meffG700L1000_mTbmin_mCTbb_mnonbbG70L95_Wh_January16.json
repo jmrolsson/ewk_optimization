@@ -29,9 +29,11 @@
     },
     {
         "selections": "meff_4j > {0}",
-        "st3": [
-            [700, 1300, 100]
-        ]
+         "pivot": [700]
+    },
+    {
+        "selections": "meff_4j < {0}",
+         "pivot": [1000]
     },
     {
         "selections": "m_bb > {0}",
@@ -43,22 +45,22 @@
     },
     {
         "selections": "m_non_bb > {0}",
-        "pivot": [75]
+        "pivot": [70]
     },
     {
         "selections": "m_non_bb < {0}",
-        "pivot": [90]
+        "pivot": [95]
     },
     {
         "selections": "mTb_min > {0}",
         "st3": [
-            [100, 260, 20]
+            [100, 240, 20]
         ]
     },
     {
         "selections": "mCT_bb > {0}",
         "st3": [
-            [100, 260, 20]
+            [100, 240, 20]
         ]
     }
 ]

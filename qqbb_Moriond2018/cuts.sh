@@ -19,7 +19,7 @@ then
 
   mkdir -p cuts
 
-  python ../Optimization/optimize.py cut $(echo $files) --supercuts=supercuts/supercuts_${tag}.json -o cuts/cuts_${tag}${suffix} --numpy --eventWeight ${event_weight} --weightsFile ../weights_qqbb.json --tree nominal --ncores=12
+  python ../Optimization/optimize.py cut $(echo $files) --supercuts=supercuts/supercuts_${tag}.json --output cuts/cuts_${tag}${suffix} --numpy --eventWeight ${event_weight} --weightsFile ../weights_qqbb.json --tree nominal --ncores=12
 
 else
 

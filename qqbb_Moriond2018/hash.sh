@@ -13,7 +13,7 @@ then
 
   mkdir -p hashes
 
-  python ../optimization/optimize.py hash --supercuts supercuts/supercuts_${tag}.json --use-summary summary/summary_${tag}${suffix}.json -o hashes/hases_${tag}${suffix}/
+  python ../Optimization/optimize.py hash --supercuts supercuts/supercuts_${tag}.json --use-summary summary/summary_${tag}${suffix}.json --output hashes/hases_${tag}${suffix}/
 
 else
 

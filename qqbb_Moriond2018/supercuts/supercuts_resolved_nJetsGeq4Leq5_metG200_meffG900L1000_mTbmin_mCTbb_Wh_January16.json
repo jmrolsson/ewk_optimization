@@ -9,9 +9,7 @@
     },
     {
         "selections": "jets_n <= {0}",
-        "st3": [
-            [4, 7, 1]
-        ]
+        "pivot": [5]
     },
     {
         "selections": "bjets_n == {0}",
@@ -23,15 +21,15 @@
     },
     {
         "selections": "met > {0}",
-        "st3": [
-            [200, 400, 50]
-        ]
+         "pivot": [200]
     },
     {
         "selections": "meff_4j > {0}",
-        "st3": [
-            [700, 1300, 100]
-        ]
+         "pivot": [900]
+    },
+    {
+        "selections": "meff_4j < {0}",
+         "pivot": [1000]
     },
     {
         "selections": "m_bb > {0}",
@@ -52,13 +50,13 @@
     {
         "selections": "mTb_min > {0}",
         "st3": [
-            [100, 260, 20]
+            [100, 220, 20]
         ]
     },
     {
         "selections": "mCT_bb > {0}",
         "st3": [
-            [100, 260, 20]
+            [100, 220, 20]
         ]
     }
 ]

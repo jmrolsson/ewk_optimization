@@ -9,9 +9,7 @@
     },
     {
         "selections": "jets_n <= {0}",
-        "st3": [
-            [4, 7, 1]
-        ]
+        "pivot": [5]
     },
     {
         "selections": "bjets_n == {0}",
@@ -23,42 +21,42 @@
     },
     {
         "selections": "met > {0}",
-        "st3": [
-            [200, 400, 50]
-        ]
+         "pivot": [200]
     },
     {
         "selections": "meff_4j > {0}",
-        "st3": [
-            [700, 1300, 100]
-        ]
+         "pivot": [1000]
     },
     {
         "selections": "m_bb > {0}",
-        "pivot": [105]
+        "st3": [
+            [90, 125, 5]
+        ]
     },
     {
         "selections": "m_bb < {0}",
-        "pivot": [135]
+        "st3": [
+            [130, 165, 5]
+        ]
     },
     {
         "selections": "m_non_bb > {0}",
-        "pivot": [75]
+        "st3": [
+            [60, 90, 5]
+        ]
     },
     {
         "selections": "m_non_bb < {0}",
-        "pivot": [90]
+        "st3": [
+            [95, 120, 5]
+        ]
     },
     {
         "selections": "mTb_min > {0}",
-        "st3": [
-            [100, 260, 20]
-        ]
+        "pivot": [140]
     },
     {
         "selections": "mCT_bb > {0}",
-        "st3": [
-            [100, 260, 20]
-        ]
+        "pivot": [140]
     }
 ]

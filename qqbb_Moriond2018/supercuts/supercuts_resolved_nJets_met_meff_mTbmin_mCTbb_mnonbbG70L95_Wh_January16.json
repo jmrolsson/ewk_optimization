@@ -43,11 +43,11 @@
     },
     {
         "selections": "m_non_bb > {0}",
-        "pivot": [75]
+        "pivot": [70]
     },
     {
         "selections": "m_non_bb < {0}",
-        "pivot": [90]
+        "pivot": [95]
     },
     {
         "selections": "mTb_min > {0}",
