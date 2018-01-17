@@ -1,0 +1,452 @@
+[
+    {
+        "hash": "13485b9768738b903eaff263bd78eaee", 
+        "significance_raw": 6.345886455442981, 
+        "significance_scaled": 1.9237946350348742, 
+        "significance_weighted": 8.61261521241139, 
+        "yield_raw": {
+            "bkg": 5760000.0, 
+            "sig": 19404000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0453411828291328, 
+            "sig": 3.162546022038168
+        }, 
+        "yield_weighted": {
+            "bkg": 3409753.5868249885, 
+            "sig": 17989802.585682992
+        }
+    }, 
+    {
+        "hash": "6648430a22a0148ab065f6cbc498d614", 
+        "significance_raw": 6.34896730011599, 
+        "significance_scaled": 1.9169110105026008, 
+        "significance_weighted": 8.640938461571247, 
+        "yield_raw": {
+            "bkg": 5724000.0, 
+            "sig": 19296000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0417456074743605, 
+            "sig": 3.145478081031629
+        }, 
+        "yield_weighted": {
+            "bkg": 3374460.5960414195, 
+            "sig": 17892713.440699156
+        }
+    }, 
+    {
+        "hash": "9c24e2303da3ac2eebe00d0f042f51d1", 
+        "significance_raw": 6.260650778738219, 
+        "significance_scaled": 1.9092388320006461, 
+        "significance_weighted": 8.644795910474839, 
+        "yield_raw": {
+            "bkg": 5904000.0, 
+            "sig": 19512000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0792569957200988, 
+            "sig": 3.180535167497437
+        }, 
+        "yield_weighted": {
+            "bkg": 3409753.7012722, 
+            "sig": 18092131.903024856
+        }
+    }, 
+    {
+        "hash": "f9df8b6a34a14dd78427187ee58d438d", 
+        "significance_raw": 6.33831989553451, 
+        "significance_scaled": 1.8951353947958354, 
+        "significance_weighted": 8.556505370596573, 
+        "yield_raw": {
+            "bkg": 5652000.0, 
+            "sig": 19008000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.035818021559517, 
+            "sig": 3.0988888076040806
+        }, 
+        "yield_weighted": {
+            "bkg": 3374460.5462135393, 
+            "sig": 17627695.374327477
+        }
+    }, 
+    {
+        "hash": "523dcc5c96eba0d6ac3f729bcee563f5", 
+        "significance_raw": 6.112600125734212, 
+        "significance_scaled": 1.8861767349726246, 
+        "significance_weighted": 8.468186749000193, 
+        "yield_raw": {
+            "bkg": 6084000.0, 
+            "sig": 19440000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1057410475010336, 
+            "sig": 3.172426148542595
+        }, 
+        "yield_weighted": {
+            "bkg": 3509314.380711855, 
+            "sig": 18046004.62166844
+        }
+    }, 
+    {
+        "hash": "d9acccdfb73d18633946566f5870d453", 
+        "significance_raw": 6.010545412814309, 
+        "significance_scaled": 1.8849272990565322, 
+        "significance_weighted": 8.442268205032502, 
+        "yield_raw": {
+            "bkg": 6264000.0, 
+            "sig": 19548000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1210892156709682, 
+            "sig": 3.1894940895491346
+        }, 
+        "yield_weighted": {
+            "bkg": 3544607.470288895, 
+            "sig": 18143093.766652275
+        }
+    }, 
+    {
+        "hash": "518a9b20aefd753eedf83a00465a0c0a", 
+        "significance_raw": 6.476260326677236, 
+        "significance_scaled": 1.8840525338205143, 
+        "significance_weighted": 8.71466388868018, 
+        "yield_raw": {
+            "bkg": 5544000.0, 
+            "sig": 19224000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0761803961132612, 
+            "sig": 3.1310347369054443
+        }, 
+        "yield_weighted": {
+            "bkg": 3315789.7228010087, 
+            "sig": 17810554.0325209
+        }
+    }, 
+    {
+        "hash": "83fe11b609b1d97bbe790ac3ca1083bc", 
+        "significance_raw": 6.231306961484887, 
+        "significance_scaled": 1.8758225347399047, 
+        "significance_weighted": 8.599009521137418, 
+        "yield_raw": {
+            "bkg": 5724000.0, 
+            "sig": 18792000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0353255058580875, 
+            "sig": 3.063991329202826
+        }, 
+        "yield_weighted": {
+            "bkg": 3311442.979995081, 
+            "sig": 17429184.825294547
+        }
+    }, 
+    {
+        "hash": "9e14884fe3923f44ae094edb6b909f03", 
+        "significance_raw": 6.251610554912925, 
+        "significance_scaled": 1.8742148562519019, 
+        "significance_weighted": 8.374784157241347, 
+        "yield_raw": {
+            "bkg": 5796000.0, 
+            "sig": 19116000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0811764405931006, 
+            "sig": 3.1196457280060286
+        }, 
+        "yield_weighted": {
+            "bkg": 3509314.1742193094, 
+            "sig": 17745768.881468765
+        }
+    }, 
+    {
+        "hash": "bb703fd13aca4dbaa95c68ba5d5e23c0", 
+        "significance_raw": 6.242218086674325, 
+        "significance_scaled": 1.8719996024256274, 
+        "significance_weighted": 8.638644028439582, 
+        "yield_raw": {
+            "bkg": 5688000.0, 
+            "sig": 18720000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0317299305033152, 
+            "sig": 3.052605226549761
+        }, 
+        "yield_weighted": {
+            "bkg": 3276149.9892115127, 
+            "sig": 17364416.206111908
+        }
+    }, 
+    {
+        "hash": "593d57280ad3c3cd772169ccdc8fb9a9", 
+        "significance_raw": 5.889586723419858, 
+        "significance_scaled": 1.8676530017506416, 
+        "significance_weighted": 8.473685360601394, 
+        "yield_raw": {
+            "bkg": 6480000.0, 
+            "sig": 19656000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1612007548646803, 
+            "sig": 3.2074832350084033
+        }, 
+        "yield_weighted": {
+            "bkg": 3544607.636818003, 
+            "sig": 18245423.08399414
+        }
+    }, 
+    {
+        "hash": "23b3cb436aee489798ed99d728376d45", 
+        "significance_raw": 6.275719146514448, 
+        "significance_scaled": 1.859469275245342, 
+        "significance_weighted": 8.527755353573232, 
+        "yield_raw": {
+            "bkg": 5580000.0, 
+            "sig": 18504000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0202234458070922, 
+            "sig": 3.0157786836544633
+        }, 
+        "yield_weighted": {
+            "bkg": 3300774.673364808, 
+            "sig": 17154932.38137609
+        }
+    }, 
+    {
+        "hash": "57abe0185f2b201d006152c7c5f7a92b", 
+        "significance_raw": 6.139048263909905, 
+        "significance_scaled": 1.8584880467119649, 
+        "significance_weighted": 8.62177023687591, 
+        "yield_raw": {
+            "bkg": 5868000.0, 
+            "sig": 18864000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0692413187490535, 
+            "sig": 3.0763283928842657
+        }, 
+        "yield_weighted": {
+            "bkg": 3311443.094442293, 
+            "sig": 17499362.88391235
+        }
+    }, 
+    {
+        "hash": "ddc3b89f335948542bec6d9c3fe85775", 
+        "significance_raw": 6.238621422306048, 
+        "significance_scaled": 1.8532445772106578, 
+        "significance_weighted": 8.562841334122083, 
+        "yield_raw": {
+            "bkg": 5616000.0, 
+            "sig": 18468000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0258023445884716, 
+            "sig": 3.0119896173550638
+        }, 
+        "yield_weighted": {
+            "bkg": 3276149.939383632, 
+            "sig": 17133378.685640045
+        }
+    }, 
+    {
+        "hash": "779e7979a77f348aba1eccf8873cb61b", 
+        "significance_raw": 6.051181943130763, 
+        "significance_scaled": 1.848220472459463, 
+        "significance_weighted": 8.676715378678955, 
+        "yield_raw": {
+            "bkg": 6228000.0, 
+            "sig": 19620000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1834463868384595, 
+            "sig": 3.1984275989235385
+        }, 
+        "yield_weighted": {
+            "bkg": 3409753.9302636785, 
+            "sig": 18193911.073000696
+        }
+    }, 
+    {
+        "hash": "c17c5fad0d025d4fb4835ddd0e05978d", 
+        "significance_raw": 6.0082858439706905, 
+        "significance_scaled": 1.8418701775608106, 
+        "significance_weighted": 8.460931356902977, 
+        "yield_raw": {
+            "bkg": 6048000.0, 
+            "sig": 18864000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0957253705299883, 
+            "sig": 3.079553294060727
+        }, 
+        "yield_weighted": {
+            "bkg": 3411003.7738819476, 
+            "sig": 17517707.387081187
+        }
+    }, 
+    {
+        "hash": "a8388f7c6a0d8bd85b850e0a601f8b9a", 
+        "significance_raw": 6.18893614689054, 
+        "significance_scaled": 1.8387536857269122, 
+        "significance_weighted": 8.342783727843942, 
+        "yield_raw": {
+            "bkg": 5724000.0, 
+            "sig": 18612000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0655818648406754, 
+            "sig": 3.036535604056411
+        }, 
+        "yield_weighted": {
+            "bkg": 3435628.301370578, 
+            "sig": 17273005.88851738
+        }
+    }, 
+    {
+        "hash": "53d0e459eecab35259121e0ad2a799b9", 
+        "significance_raw": 5.89951640922502, 
+        "significance_scaled": 1.837702363745291, 
+        "significance_weighted": 8.424098373571832, 
+        "yield_raw": {
+            "bkg": 6228000.0, 
+            "sig": 18936000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1110735386999226, 
+            "sig": 3.0909393967137917
+        }, 
+        "yield_weighted": {
+            "bkg": 3446296.863458988, 
+            "sig": 17582476.00626383
+        }
+    }, 
+    {
+        "hash": "5600cad439259dd7b2b82eac1f9462f1", 
+        "significance_raw": 6.470430422340568, 
+        "significance_scaled": 1.8367212509496684, 
+        "significance_weighted": 8.605822803085967, 
+        "yield_raw": {
+            "bkg": 5364000.0, 
+            "sig": 18576000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.056719095675202, 
+            "sig": 3.021864188012415
+        }, 
+        "yield_weighted": {
+            "bkg": 3261984.589787063, 
+            "sig": 17189549.117787506
+        }
+    }, 
+    {
+        "hash": "5b8276fd3b7d4f12314e6372ec09dbf3", 
+        "significance_raw": 6.350932485213087, 
+        "significance_scaled": 1.832886809456579, 
+        "significance_weighted": 8.693239372275713, 
+        "yield_raw": {
+            "bkg": 5508000.0, 
+            "sig": 18576000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.0661647191422159, 
+            "sig": 3.026827962292273
+        }, 
+        "yield_weighted": {
+            "bkg": 3217479.1159711014, 
+            "sig": 17217785.0134084
+        }
+    }, 
+    {
+        "hash": "385c6c1e2830053d33c7a0a0de8357e5", 
+        "significance_raw": 6.152986775717915, 
+        "significance_scaled": 1.8327271342804483, 
+        "significance_weighted": 8.375689084302747, 
+        "yield_raw": {
+            "bkg": 5760000.0, 
+            "sig": 18576000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.071160763622055, 
+            "sig": 3.0327465377570118
+        }, 
+        "yield_weighted": {
+            "bkg": 3411003.567389402, 
+            "sig": 17251452.192781333
+        }
+    }, 
+    {
+        "hash": "644d7e7dc9884307433e941bbfaea9e2", 
+        "significance_raw": 5.772332155839787, 
+        "significance_scaled": 1.8177616346771708, 
+        "significance_weighted": 8.446303027407946, 
+        "yield_raw": {
+            "bkg": 6444000.0, 
+            "sig": 19008000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1511850778936348, 
+            "sig": 3.103276460395232
+        }, 
+        "yield_weighted": {
+            "bkg": 3446297.0299880956, 
+            "sig": 17652654.064881634
+        }
+    }, 
+    {
+        "hash": "944f594f2dfff1bcb6d8c1dca9b276d9", 
+        "significance_raw": 5.651398623707031, 
+        "significance_scaled": 1.8093845554562151, 
+        "significance_weighted": 8.47637632673224, 
+        "yield_raw": {
+            "bkg": 6912000.0, 
+            "sig": 19800000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.2736923497427377, 
+            "sig": 3.231523359255165
+        }, 
+        "yield_weighted": {
+            "bkg": 3569457.2997593246, 
+            "sig": 18382172.742756672
+        }
+    }, 
+    {
+        "hash": "e47ca83bf6609cf0568d2e53a1ca79c2", 
+        "significance_raw": 5.932162041274888, 
+        "significance_scaled": 1.7984393597000894, 
+        "significance_weighted": 8.65470098084461, 
+        "yield_raw": {
+            "bkg": 6192000.0, 
+            "sig": 18972000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.1734307098674142, 
+            "sig": 3.094220824310367
+        }, 
+        "yield_weighted": {
+            "bkg": 3311443.3234337717, 
+            "sig": 17601142.053888187
+        }
+    }, 
+    {
+        "hash": "5913f19ace61ddbc00fa567dca3bbae4", 
+        "significance_raw": 5.537389710028914, 
+        "significance_scaled": 1.760551650776884, 
+        "significance_weighted": 8.44927303633206, 
+        "yield_raw": {
+            "bkg": 6876000.0, 
+            "sig": 19152000.0
+        }, 
+        "yield_scaled": {
+            "bkg": 1.263676672771692, 
+            "sig": 3.1273165846419935
+        }, 
+        "yield_weighted": {
+            "bkg": 3471146.692929418, 
+            "sig": 17789403.72364417
+        }
+    }
+]

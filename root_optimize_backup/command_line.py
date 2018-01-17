@@ -175,7 +175,7 @@ def do_optimize(args):
         signal_data = json.load(f)
 
         for cuthash, counts_dict in signal_data.iteritems():
-          sig_dict = dict([('hash', cuthash)] + [('significance_{0:s}'.format(counts_type), utils.get_significance(args.lumi*1000.0*counts, args.lumi*1000.0*total_bkgd[cuthash][counts_type], args.insignificanceThresholdSignal, args.insignificanceThresholdBkgd, args.bkgdUncertainty, args.bkgdStatUncertainty, total_bkgd[cuthash]['raw'])) for counts_type, counts in counts_dict.iteritems()] + [('yield_{0:s}'.format(counts_type), {'sig': utils.get_lumi(counts_type, args.lumi)*counts, 'bkg': utils.get_lumi(counts_type, args.lumi)*total_bkgd[cuthash][counts_type]}) for counts_type, counts in counts_dict.iteritems()])
+          sig_dict = dict([('hash', cuthash)] + [('significance_{0:s}'.format(counts_type), utils.get_significance(args.lumi*1000*counts, args.lumi*1000*total_bkgd[cuthash][counts_type], args.insignificanceThresholdSignal, args.insignificanceThresholdBkgd, args.bkgdUncertainty, args.bkgdStatUncertainty, total_bkgd[cuthash]['raw'])) for counts_type, counts in counts_dict.iteritems()] + [('yield_{0:s}'.format(counts_type), {'sig': utils.get_lumi(counts_type, args.lumi)*counts, 'bkg': utils.get_lumi(counts_type, args.lumi)*total_bkgd[cuthash][counts_type]}) for counts_type, counts in counts_dict.iteritems()])
           significances.append(sig_dict)
       logger.log(25, '\t\tCalculated significances for {0:d} cuts'.format(len(significances)))
       # at this point, we have a list of significances that we can dump to a file
