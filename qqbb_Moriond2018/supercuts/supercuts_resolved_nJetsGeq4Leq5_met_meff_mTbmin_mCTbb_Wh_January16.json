@@ -1,0 +1,62 @@
+[
+    {
+        "selections": "baseline_leptons_n == {0}",
+        "pivot": [0]
+    },
+    {
+        "selections": "jets_n >= {0}",
+        "pivot": [4]
+    },
+    {
+        "selections": "jets_n <= {0}",
+        "pivot": [5]
+    },
+    {
+        "selections": "bjets_n == {0}",
+        "pivot": [2]
+    },
+    {
+        "selections": "dphi_min > {0}",
+         "pivot": [0.4]
+    },
+    {
+        "selections": "met > {0}",
+        "st3": [
+            [200, 500, 50]
+        ]
+    },
+    {
+        "selections": "meff_4j > {0}",
+        "st3": [
+            [700, 1100, 100]
+        ]
+    },
+    {
+        "selections": "m_bb > {0}",
+        "pivot": [105]
+    },
+    {
+        "selections": "m_bb < {0}",
+        "pivot": [135]
+    },
+    {
+        "selections": "m_non_bb > {0}",
+        "pivot": [75]
+    },
+    {
+        "selections": "m_non_bb < {0}",
+        "pivot": [90]
+    },
+    {
+        "selections": "mTb_min > {0}",
+        "st3": [
+            [100, 320, 20]
+        ]
+    },
+    {
+        "selections": "mCT_bb > {0}",
+        "st3": [
+            [100, 320, 20]
+        ]
+    }
+]

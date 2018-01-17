@@ -1,9 +1,23 @@
 #!/bin/bash
 
-tag=resolved_nJets_met_meff_mTbmin_mCTbb_Wh_January16
+if [ $# -ge 1 ];
+then
 
-suffix=_MET_filter
+  tag=$1
 
-mkdir -p hashes
+  suffix=""
+  if [ $# -ge 2 ];
+  then
+    suffix=$2
+  fi
 
-python ../Optimization/optimize.py hash --supercuts supercuts/supercuts_${tag}.json --use-summary summary/summary_${tag}${suffix}.json -o hashes/hases_${tag}${suffix}/
+  mkdir -p hashes
+
+  python ../optimization/optimize.py hash --supercuts supercuts/supercuts_${tag}.json --use-summary summary/summary_${tag}${suffix}.json -o hashes/hases_${tag}${suffix}/
+
+else
+
+  echo "error: illegal number of input parameters:"
+  echo "cuts.sh tag [suffix]"
+
+fi 

@@ -1,9 +1,23 @@
 #!/bin/bash
 
-tag=resolved_nJets_met_meff_mTbmin_mCTbb_Wh_January16
+if [ $# -ge 1 ];
+then
 
-suffix=_MET_filter
+  tag=$1
 
-mkdir -p summary
+  suffix=""
+  if [ $# -ge 2 ];
+  then
+    suffix=$2
+  fi
 
-python ../Optimization/optimize.py summary --searchDirectory significances/significances_${tag}${suffix}/ --massWindows mass_windows_qqbb.txt --stop-masses 0 --output summary/summary_${tag}${suffix}.json
+  mkdir -p summary
+
+  python ../Optimization/optimize.py summary --searchDirectory significances/significances_${tag}${suffix}/ --massWindows mass_windows_qqbb.txt --stop-masses 0 --output summary/summary_${tag}${suffix}.json
+
+else
+
+  echo "error: illegal number of input parameters:"
+  echo "cuts.sh tag [suffix]"
+
+fi 

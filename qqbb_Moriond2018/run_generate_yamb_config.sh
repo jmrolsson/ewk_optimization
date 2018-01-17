@@ -1,11 +1,25 @@
 #!/bin/bash
 
-tag=resolved_nJets_met_meff_mTbmin_mCTbb_Wh_January16
+if [ $# -ge 1 ];
+then
 
-suffix=_MET_filter
+  tag=$1
 
-mkdir -p plots
+  suffix=""
+  if [ $# -ge 2 ];
+  then
+    suffix=$2
+  fi
 
-masspoints="350_0 500_0 550_150 650_00"
+  mkdir -p plots
 
-python ../Optimization/generate_ymab_config.py --supercuts supercuts/supercuts_${tag}.json --use-summary summary/summary_${tag}${suffix}.json --outputHash hashes/hases_${tag}${suffix}/ --masspoints $(echo ${masspoints})
+  masspoints="350_0 500_0 550_150 650_00"
+
+  python ../Optimization/generate_ymab_config.py --supercuts supercuts/supercuts_${tag}.json --use-summary summary/summary_${tag}${suffix}.json --outputHash hashes/hases_${tag}${suffix}/ --masspoints $(echo ${masspoints})
+
+else
+
+  echo "error: illegal number of input parameters:"
+  echo "cuts.sh tag [suffix]"
+
+fi 
