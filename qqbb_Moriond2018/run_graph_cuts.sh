@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tag=resolved_nJets_MET_meff_mCTbb_mTbmin_Wh_January16
+tag=resolved_nJets_met_meff_mTbmin_mCTbb_Wh_January16
 
 suffix=_MET_filter
 

@@ -16,7 +16,7 @@ files=$(find ${input_dir}/${version} -name "*.merged" -not -iname "*data*" | xar
 #tag=resolved_nJets_MET_Mctbb_mTbmin_MeffG900_Wh_August12_MnonbbG70L95
 #tag=resolved_nJets_MET_Mctbb_mTbmin_metsig_MeffG900_Wh_September20
 
-tag=resolved_nJets_MET_meff_mCTbb_mTbmin_Wh_January16
+tag=resolved_nJets_met_meff_mTbmin_mCTbb_Wh_January16
 
 suffix=_MET_filter
 
